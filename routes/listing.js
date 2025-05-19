@@ -13,8 +13,6 @@ const upload = multer({ storage });
 
 
 
-
-
 //  index route
 
 router.get("/", wrapAsync(index));
